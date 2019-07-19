@@ -5,7 +5,7 @@ root=Tk()
 root.maxsize(width=800, height=600)
 root.title("Paint")
 class draw:
-    def __init__(self,root):      #init method of class
+    def __init__(self,root):      #init method of class draw
     
         self.root=root
         self.radiobuttonValue = IntVar()
