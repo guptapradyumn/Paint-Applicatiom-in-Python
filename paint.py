@@ -114,7 +114,7 @@ class draw:
         self.new_entry.grid(row=3,column=1)
         self.new_button=Button(self.new_window,text="save",command=self.lets_save).grid(row=4,column=1)      
                 
-    def save(self):             #fuction for saving image
+    def save(self):             #fuction for saving image to same folder
         if(self.filename==''):
             self.saveas()
         else:
